@@ -4,7 +4,7 @@ export class Hero {
   id: number;
   name: string;
 }
-
+//comment
 @Component({
   selector: 'my-app',
   template:
