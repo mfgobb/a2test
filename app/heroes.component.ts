@@ -70,7 +70,7 @@ import { OnInit } from '@angular/core';
 
 })
 
-export class HeroComponent implements OnInit{
+export class HeroesComponent implements OnInit{
   heroes: Hero[];
   title = 'Tour of Heroes';
   selectedHero: Hero;

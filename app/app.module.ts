@@ -2,7 +2,7 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HeroDetailComponent } from './hero-detail.component';
-import { HeroComponent }  from './heroes.component';
+import { HeroesComponent }  from './heroes.component';
 
 @NgModule({
   imports: [
@@ -10,10 +10,10 @@ import { HeroComponent }  from './heroes.component';
     FormsModule
   ],
   declarations: [
-    HeroComponent,
+    HeroesComponent,
     HeroDetailComponent
   ],
-  bootstrap: [HeroComponent]
+  bootstrap: [HeroesComponent]
 })
 
 export class AppModule {
