@@ -3,7 +3,7 @@ import { Hero } from './hero';
 import { HeroService } from './hero.service';
 import { OnInit } from '@angular/core';
 
-//comment
+//comments
 @Component({
   selector: 'my-heroes',
   template: `<h1>{{title}}</h1>
