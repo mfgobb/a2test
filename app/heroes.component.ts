@@ -5,7 +5,7 @@ import { OnInit } from '@angular/core';
 
 //comment
 @Component({
-  selector: 'my-app',
+  selector: 'my-heroes',
   template: `<h1>{{title}}</h1>
 <h2>My Heroes</h2>
 <ul class="heroes">
@@ -70,7 +70,7 @@ import { OnInit } from '@angular/core';
 
 })
 
-export class AppComponent implements OnInit{
+export class HeroComponent implements OnInit{
   heroes: Hero[];
   title = 'Tour of Heroes';
   selectedHero: Hero;
